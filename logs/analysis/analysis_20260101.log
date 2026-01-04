@@ -1,0 +1,226 @@
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:331]: Starting final econometric analysis
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:47]: Loading data from: C:\JMM\Project for Cursor\data\processed\final_panel_2019.csv
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:49]: ✓ Data loaded: 8,712 rows, 10 columns
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:63]: Cleaning data...
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:86]:   ✓ Converted Cases and FHTC_Coverage to numeric
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:92]:   ✓ Dropped 0 rows with missing values
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:98]:   ✓ Dropped 777 rows where Cases == 0
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:122]:   ✓ Set panel index: ['District_Name', 'Date']
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:124]:   Final shape: (7935, 8)
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:140]: Creating features...
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:145]:   ✓ Created Log_Cases = log(Cases)
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:151]:   ✓ Created suspicious_flag (coverage jump > 10%)
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:152]:     Suspicious observations: 823 (10.4%)
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:172]: 
+Running Model A (Official View - Full Dataset)...
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:176]:   Observations: 7,935
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:177]:   Districts: 685
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:199]:   ✓ Model A fitted successfully
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:234]: 
+Running Model B (Sanitized View - Filtered Dataset)...
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:240]:   Observations: 7,112
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:241]:   Districts: 685
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:242]:   Observations removed: 823
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:264]:   ✓ Model B fitted successfully
+2026-01-01 19:51:37 [INFO] __main__ [run_final_analysis.py:355]: Analysis completed successfully
+2026-01-01 20:13:35 [INFO] __main__ [analyze_by_state.py:205]: Starting state-wise econometric analysis
+2026-01-01 20:13:35 [INFO] __main__ [analyze_by_state.py:46]: Loading data from: C:\JMM\Project for Cursor\data\processed\final_panel_2019.csv
+2026-01-01 20:13:35 [INFO] __main__ [analyze_by_state.py:48]: ✓ Data loaded: 8,712 rows, 10 columns
+2026-01-01 20:13:35 [INFO] __main__ [analyze_by_state.py:68]: Cleaning data...
+2026-01-01 20:13:35 [INFO] __main__ [analyze_by_state.py:73]:   ✓ Converted Cases and FHTC_Coverage to numeric
+2026-01-01 20:13:35 [INFO] __main__ [analyze_by_state.py:79]:   ✓ Dropped 0 rows with missing values
+2026-01-01 20:13:35 [INFO] __main__ [analyze_by_state.py:85]:   ✓ Dropped 777 rows where Cases == 0
+2026-01-01 20:13:35 [INFO] __main__ [analyze_by_state.py:89]:   ✓ Created Log_Cases = log(Cases)
+2026-01-01 20:13:35 [INFO] __main__ [analyze_by_state.py:113]:   ✓ Set panel index: ['District_Name', 'Date']
+2026-01-01 20:13:35 [INFO] __main__ [analyze_by_state.py:115]:   Final shape: (7935, 9)
+2026-01-01 20:13:35 [ERROR] __main__ [analyze_by_state.py:142]: State column not found
+2026-01-01 20:13:35 [ERROR] __main__ [analyze_by_state.py:320]: Analysis failed: State column not found in data
+Traceback (most recent call last):
+  File "C:\JMM\Project for Cursor\src\analyze_by_state.py", line 215, in main
+    state_col = find_state_column(df)
+  File "C:\JMM\Project for Cursor\src\analyze_by_state.py", line 143, in find_state_column
+    raise ValueError("State column not found in data")
+ValueError: State column not found in data
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:225]: Starting state-wise econometric analysis
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:46]: Loading data from: C:\JMM\Project for Cursor\data\processed\final_panel_2019.csv
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:48]: ✓ Data loaded: 8,712 rows, 10 columns
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:68]: Cleaning data...
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:73]:   ✓ Converted Cases and FHTC_Coverage to numeric
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:79]:   ✓ Dropped 0 rows with missing values
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:85]:   ✓ Dropped 777 rows where Cases == 0
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:89]:   ✓ Created Log_Cases = log(Cases)
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:113]:   ✓ Set panel index: ['District_Name', 'Date']
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:115]:   Final shape: (7935, 9)
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:141]: Found state column: State_water
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:146]: Renamed 'State_water' to 'State_Name' for consistency
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:260]: 
+Found 36 unique states
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:261]: Processing each state...
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: A & N Islands
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:277]:   Skipping A & N Islands: Only 24 observations (< 50)
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Andhra Pradesh
+2026-01-01 20:20:33 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Andhra Pradesh: Coefficient=-0.037705, P-value=0.0868
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Arunachal Pradesh
+2026-01-01 20:20:33 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Arunachal Pradesh: Coefficient=-0.036224, P-value=0.0132
+2026-01-01 20:20:33 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Assam
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Assam: Coefficient=0.002874, P-value=0.7893
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Bihar
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Bihar: Coefficient=-0.008809, P-value=0.5556
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Chandigarh
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:277]:   Skipping Chandigarh: Only 12 observations (< 50)
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Chhattisgarh
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Chhattisgarh: Coefficient=-0.006665, P-value=0.3558
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Dadra & Nagar Haveli
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:277]:   Skipping Dadra & Nagar Haveli: Only 12 observations (< 50)
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Daman & Diu
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:277]:   Skipping Daman & Diu: Only 11 observations (< 50)
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Delhi
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Delhi: Coefficient=0.035785, P-value=0.0003
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Goa
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:277]:   Skipping Goa: Only 24 observations (< 50)
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Gujarat
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Gujarat: Coefficient=0.016002, P-value=0.2272
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Haryana
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Haryana: Coefficient=0.004693, P-value=0.6176
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Himachal Pradesh
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Himachal Pradesh: Coefficient=-0.012758, P-value=0.4611
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Jammu & Kashmir
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Jammu & Kashmir: Coefficient=0.007660, P-value=0.5835
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Jharkhand
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Jharkhand: Coefficient=0.022171, P-value=0.0955
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Karnataka
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Karnataka: Coefficient=0.000608, P-value=0.9334
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Kerala
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Kerala: Coefficient=0.016449, P-value=0.2354
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Lakshadweep
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:277]:   Skipping Lakshadweep: Only 12 observations (< 50)
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Madhya Pradesh
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Madhya Pradesh: Coefficient=0.001920, P-value=0.8326
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Maharashtra
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Maharashtra: Coefficient=0.003967, P-value=0.7382
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Manipur
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Manipur: Coefficient=0.029609, P-value=0.0324
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Meghalaya
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Meghalaya: Coefficient=0.001219, P-value=0.9668
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Mizoram
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Mizoram: Coefficient=0.007210, P-value=0.7032
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Nagaland
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Nagaland: Coefficient=0.031722, P-value=0.0824
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Odisha
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Odisha: Coefficient=-0.007105, P-value=0.4819
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Puducherry
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:277]:   Skipping Puducherry: Only 40 observations (< 50)
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Punjab
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Punjab: Coefficient=-0.009114, P-value=0.6365
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Rajasthan
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Rajasthan: Coefficient=-0.003846, P-value=0.6014
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Sikkim
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Sikkim: Coefficient=-0.014152, P-value=0.1005
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Tamil Nadu
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Tamil Nadu: Coefficient=-0.025960, P-value=0.0069
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Telangana
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Telangana: Coefficient=0.005053, P-value=0.7835
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Tripura
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Tripura: Coefficient=-0.020434, P-value=0.5790
+2026-01-01 20:20:34 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Uttar Pradesh
+2026-01-01 20:20:34 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Uttar Pradesh: Coefficient=0.005978, P-value=0.5830
+2026-01-01 20:20:35 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: Uttarakhand
+2026-01-01 20:20:35 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ Uttarakhand: Coefficient=0.045721, P-value=0.0679
+2026-01-01 20:20:35 [INFO] __main__ [analyze_by_state.py:270]: 
+Processing: West Bengal
+2026-01-01 20:20:35 [DEBUG] __main__ [analyze_by_state.py:215]:   ✓ West Bengal: Coefficient=-0.038049, P-value=0.0321
+2026-01-01 20:20:35 [INFO] __main__ [analyze_by_state.py:305]: 
+✓ Analysis complete:
+2026-01-01 20:20:35 [INFO] __main__ [analyze_by_state.py:306]:   Successful: 29
+2026-01-01 20:20:35 [INFO] __main__ [analyze_by_state.py:307]:   Skipped (< 50 obs): 7
+2026-01-01 20:20:35 [INFO] __main__ [analyze_by_state.py:308]:   Failed: 0
+2026-01-01 20:20:35 [INFO] __main__ [analyze_by_state.py:337]: Saved results to: C:\JMM\Project for Cursor\data\processed\state_wise_results.csv
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:297]: Starting consolidated analysis on high-performing states
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:46]: Loading data from: C:\JMM\Project for Cursor\data\processed\final_panel_2019.csv
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:48]: ✓ Data loaded: 8,712 rows, 10 columns
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:91]: Found state column: State_water
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:96]: Renamed 'State_water' to 'State_Name' for consistency
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:129]: Filtering for star states: ['West Bengal', 'Tamil Nadu', 'Arunachal Pradesh']
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:136]:   ✓ Filtered: 8,712 → 900 rows
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:137]:   States included: ['Arunachal Pradesh', 'Tamil Nadu', 'West Bengal']
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:154]: Cleaning data...
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:160]:   ✓ Converted Cases and FHTC_Coverage to numeric
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:166]:   ✓ Dropped 0 rows with missing values
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:172]:   ✓ Dropped 127 rows where Cases == 0
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:176]:   ✓ Created Log_Cases = log(Cases)
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:200]:   ✓ Set panel index: ['District_Name', 'Date']
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:202]:   Final shape: (773, 10)
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:222]: 
+Running PanelOLS model on star states...
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:226]:   Observations: 773
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:227]:   Districts: 74
+2026-01-01 20:32:10 [INFO] __main__ [analyze_star_states.py:228]:   Time periods: 12
+2026-01-01 20:32:11 [INFO] __main__ [analyze_star_states.py:250]:   ✓ Model fitted successfully
+2026-01-01 20:32:11 [INFO] __main__ [analyze_star_states.py:358]: Analysis completed successfully
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:298]: Starting consolidated analysis on high-performing states
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:46]: Loading data from: C:\JMM\Project for Cursor\data\processed\final_panel_2019.csv
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:48]: ✓ Data loaded: 8,712 rows, 10 columns
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:91]: Found state column: State_water
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:96]: Renamed 'State_water' to 'State_Name' for consistency
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:129]: Filtering for star states: ['West Bengal', 'Tamil Nadu', 'Arunachal Pradesh']
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:136]:   ✓ Filtered: 8,712 → 900 rows
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:137]:   States included: ['Arunachal Pradesh', 'Tamil Nadu', 'West Bengal']
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:154]: Cleaning data...
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:160]:   ✓ Converted Cases and FHTC_Coverage to numeric
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:166]:   ✓ Dropped 0 rows with missing values
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:172]:   ✓ Dropped 127 rows where Cases == 0
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:176]:   ✓ Created Log_Cases = log(Cases)
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:200]:   ✓ Set panel index: ['District_Name', 'Date']
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:202]:   Final shape: (773, 10)
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:223]: 
+Running PanelOLS model on star states...
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:227]:   Observations: 773
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:228]:   Districts: 74
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:229]:   Time periods: 12
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:251]:   ✓ Model fitted successfully
+2026-01-01 20:37:05 [INFO] __main__ [analyze_star_states.py:360]: Analysis completed successfully
+2026-01-01 20:57:07 [INFO] __main__ [visualize_results.py:164]: Starting visualization of state-wise results
+2026-01-01 20:57:07 [INFO] __main__ [visualize_results.py:41]: Loading state results from: C:\JMM\Project for Cursor\data\processed\state_wise_results.csv
+2026-01-01 20:57:07 [INFO] __main__ [visualize_results.py:43]: ✓ Loaded 29 state results
+2026-01-01 20:57:07 [INFO] __main__ [visualize_results.py:57]: Filtering for Star States and Lagging States...
+2026-01-01 20:57:07 [INFO] __main__ [visualize_results.py:65]:   Star States (Top 3 negative): ['West Bengal', 'Andhra Pradesh', 'Arunachal Pradesh']
+2026-01-01 20:57:07 [INFO] __main__ [visualize_results.py:72]:   Lagging States (Top 3 positive/insignificant): ['Uttarakhand', 'Delhi', 'Nagaland']
+2026-01-01 20:57:07 [INFO] __main__ [visualize_results.py:80]:   ✓ Selected 6 states for visualization
+2026-01-01 20:57:07 [INFO] __main__ [visualize_results.py:95]: Creating bar chart...
+2026-01-01 20:57:10 [INFO] __main__ [visualize_results.py:154]: ✓ Saved plot to: C:\JMM\Project for Cursor\output\figures\coefficient_comparison.png
+2026-01-01 20:58:43 [INFO] __main__ [visualize_results.py:197]: Visualization completed successfully

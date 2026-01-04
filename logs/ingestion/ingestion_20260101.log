@@ -1,0 +1,219 @@
+2026-01-01 15:23:55 [INFO] __main__ [ingest_jjm.py:303]: Running JJM FHTC data ingestion script for 2019-2020
+2026-01-01 15:23:55 [INFO] __main__ [ingest_jjm.py:313]: Script execution completed. Please provide actual district codes to fetch real data.
+2026-01-01 18:52:30 [INFO] __main__ [ingest_jjm.py:437]: Running JJM FHTC data ingestion script for 2019-2020
+2026-01-01 18:52:30 [INFO] __main__ [ingest_jjm.py:438]: This will process all states (1-35) and all districts
+2026-01-01 18:52:30 [INFO] __main__ [ingest_jjm.py:301]: Starting JJM FHTC data ingestion for financial year 2019-2020
+2026-01-01 18:52:30 [INFO] __main__ [ingest_jjm.py:302]: Processing all states (State IDs 1-35)
+2026-01-01 18:52:30 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:30 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 1
+2026-01-01 18:52:30 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:30 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 1 from API
+2026-01-01 18:52:31 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 1. Skipping state.
+2026-01-01 18:52:31 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:31 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 2
+2026-01-01 18:52:31 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:31 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 2 from API
+2026-01-01 18:52:32 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 2. Skipping state.
+2026-01-01 18:52:32 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:32 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 3
+2026-01-01 18:52:32 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:32 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 3 from API
+2026-01-01 18:52:33 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 3. Skipping state.
+2026-01-01 18:52:33 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:33 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 4
+2026-01-01 18:52:33 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:33 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 4 from API
+2026-01-01 18:52:34 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 4. Skipping state.
+2026-01-01 18:52:34 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:34 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 5
+2026-01-01 18:52:34 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:34 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 5 from API
+2026-01-01 18:52:35 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 5. Skipping state.
+2026-01-01 18:52:35 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:35 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 6
+2026-01-01 18:52:35 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:35 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 6 from API
+2026-01-01 18:52:36 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 6. Skipping state.
+2026-01-01 18:52:36 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:36 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 7
+2026-01-01 18:52:36 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:36 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 7 from API
+2026-01-01 18:52:37 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 7. Skipping state.
+2026-01-01 18:52:37 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:37 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 8
+2026-01-01 18:52:37 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:37 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 8 from API
+2026-01-01 18:52:38 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 8. Skipping state.
+2026-01-01 18:52:38 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:38 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 9
+2026-01-01 18:52:38 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:38 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 9 from API
+2026-01-01 18:52:39 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 9. Skipping state.
+2026-01-01 18:52:39 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:39 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 10
+2026-01-01 18:52:39 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:39 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 10 from API
+2026-01-01 18:52:40 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 10. Skipping state.
+2026-01-01 18:52:40 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:40 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 11
+2026-01-01 18:52:40 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:40 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 11 from API
+2026-01-01 18:52:41 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 11. Skipping state.
+2026-01-01 18:52:41 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:41 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 12
+2026-01-01 18:52:41 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:41 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 12 from API
+2026-01-01 18:52:42 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 12. Skipping state.
+2026-01-01 18:52:42 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:42 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 13
+2026-01-01 18:52:42 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:42 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 13 from API
+2026-01-01 18:52:43 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 13. Skipping state.
+2026-01-01 18:52:43 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:43 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 14
+2026-01-01 18:52:43 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:43 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 14 from API
+2026-01-01 18:52:44 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 14. Skipping state.
+2026-01-01 18:52:44 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:44 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 15
+2026-01-01 18:52:44 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:44 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 15 from API
+2026-01-01 18:52:45 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 15. Skipping state.
+2026-01-01 18:52:45 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:45 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 16
+2026-01-01 18:52:45 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:45 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 16 from API
+2026-01-01 18:52:46 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 16. Skipping state.
+2026-01-01 18:52:46 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:46 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 17
+2026-01-01 18:52:46 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:46 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 17 from API
+2026-01-01 18:52:47 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 17. Skipping state.
+2026-01-01 18:52:47 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:47 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 18
+2026-01-01 18:52:47 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:47 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 18 from API
+2026-01-01 18:52:48 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 18. Skipping state.
+2026-01-01 18:52:48 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:48 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 19
+2026-01-01 18:52:48 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:48 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 19 from API
+2026-01-01 18:52:49 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 19. Skipping state.
+2026-01-01 18:52:49 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:49 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 20
+2026-01-01 18:52:49 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:49 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 20 from API
+2026-01-01 18:52:50 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 20. Skipping state.
+2026-01-01 18:52:50 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:50 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 21
+2026-01-01 18:52:50 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:50 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 21 from API
+2026-01-01 18:52:51 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 21. Skipping state.
+2026-01-01 18:52:51 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:51 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 22
+2026-01-01 18:52:51 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:51 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 22 from API
+2026-01-01 18:52:52 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 22. Skipping state.
+2026-01-01 18:52:52 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:52 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 23
+2026-01-01 18:52:52 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:52 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 23 from API
+2026-01-01 18:52:53 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 23. Skipping state.
+2026-01-01 18:52:53 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:53 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 24
+2026-01-01 18:52:53 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:53 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 24 from API
+2026-01-01 18:52:54 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 24. Skipping state.
+2026-01-01 18:52:54 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:54 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 25
+2026-01-01 18:52:54 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:55 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 25 from API
+2026-01-01 18:52:56 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 25. Skipping state.
+2026-01-01 18:52:56 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:56 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 26
+2026-01-01 18:52:56 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:56 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 26 from API
+2026-01-01 18:52:57 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 26. Skipping state.
+2026-01-01 18:52:57 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:57 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 27
+2026-01-01 18:52:57 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:57 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 27 from API
+2026-01-01 18:52:58 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 27. Skipping state.
+2026-01-01 18:52:58 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:58 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 28
+2026-01-01 18:52:58 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:58 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 28 from API
+2026-01-01 18:52:59 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 28. Skipping state.
+2026-01-01 18:52:59 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:52:59 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 29
+2026-01-01 18:52:59 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:52:59 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 29 from API
+2026-01-01 18:53:00 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 29. Skipping state.
+2026-01-01 18:53:00 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:53:00 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 30
+2026-01-01 18:53:00 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:53:00 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 30 from API
+2026-01-01 18:53:01 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 30. Skipping state.
+2026-01-01 18:53:01 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:53:01 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 31
+2026-01-01 18:53:01 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:53:01 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 31 from API
+2026-01-01 18:53:02 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 31. Skipping state.
+2026-01-01 18:53:02 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:53:02 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 32
+2026-01-01 18:53:02 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:53:02 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 32 from API
+2026-01-01 18:53:03 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 32. Skipping state.
+2026-01-01 18:53:03 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:53:03 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 33
+2026-01-01 18:53:03 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:53:03 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 33 from API
+2026-01-01 18:53:04 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 33. Skipping state.
+2026-01-01 18:53:04 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:53:04 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 34
+2026-01-01 18:53:04 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:53:04 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 34 from API
+2026-01-01 18:53:05 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 34. Skipping state.
+2026-01-01 18:53:05 [INFO] __main__ [ingest_jjm.py:321]: 
+============================================================
+2026-01-01 18:53:05 [INFO] __main__ [ingest_jjm.py:322]: Processing State ID: 35
+2026-01-01 18:53:05 [INFO] __main__ [ingest_jjm.py:323]: ============================================================
+2026-01-01 18:53:05 [WARNING] __main__ [ingest_jjm.py:141]: Could not fetch districts for state 35 from API
+2026-01-01 18:53:06 [WARNING] __main__ [ingest_jjm.py:333]: No districts found for State ID 35. Skipping state.
+2026-01-01 18:53:06 [WARNING] __main__ [ingest_jjm.py:416]: No data was successfully fetched. Creating empty DataFrame.
+2026-01-01 18:53:06 [INFO] __main__ [ingest_jjm.py:422]: Saved raw data to C:\JMM\Project for Cursor\data\raw\jjm_raw_2019.csv
+2026-01-01 18:53:06 [INFO] __main__ [ingest_jjm.py:445]: Script execution completed.

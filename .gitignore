@@ -1,0 +1,13 @@
+﻿# IGNORE DATA
+data/
+*.csv
+*.xls
+*.xlsx
+*.zip
+*.json
+
+# IGNORE SYSTEM FILES
+__pycache__/
+venv/
+.ipynb_checkpoints/
+.DS_Store
