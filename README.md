@@ -1,7 +1,7 @@
 ## 🚀 Quick Start for Reviewers
 
 1. **Download Code:** Click the green **Code** button > **Download ZIP** (or clone this repo).
-2. **Download Data:** [INSERT LINK TO YOUR GOOGLE DRIVE/ONEDRIVE HERE] containing `final_panel_2019.csv`.
+2. **Download Data:** [https://drive.google.com/file/d/11DRNp6MsNYiq50D-h-Qiq_J5JKo57zXX/view?usp=sharing] containing `final_panel_2019.csv`.
 3. **Setup Data:** Create a folder named `data/processed/` inside the project and paste the CSV file there.
 4. **Run:** Double-click `run_project.bat`.
    - The script will automatically install libraries and generate the graph in `output/figures/`.
